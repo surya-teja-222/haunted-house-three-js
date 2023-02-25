@@ -1,0 +1,50 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html,
+body {
+	overflow: hidden;
+}
+
+.webgl {
+	position: fixed;
+	top: 0;
+	left: 0;
+	outline: none;
+}
+
+.pre-loader {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	z-index: 999;
+	display: flex;
+	justify-content: center;
+}
+
+.load {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	z-index: 9999;
+	display: flex;
+	justify-content: center;
+	background-color: #0c0b0d;
+	height: 100vh;
+}
+.loader-childern {
+	width: 20%;
+	background-color: #0c0b0d;
+	height: 100%;
+}
+
+.load > img {
+	width: 50%;
+	height: fit-content;
+}

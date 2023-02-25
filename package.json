@@ -1,0 +1,19 @@
+{
+  "name": "haunted-house-exercise",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "devDependencies": {
+    "vite": "^4.0.4"
+  },
+  "dependencies": {
+    "gsap": "^3.11.4",
+    "lil-gui": "^0.17.0",
+    "stats-js": "^1.0.1",
+    "three": "^0.148.0"
+  }
+}
